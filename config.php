@@ -11,7 +11,7 @@ if(ENVIRONMENT == 'development') {
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '123123';
 } else {
-	define("BASE", "http://wwww.librasvirtual.com.br/painel");
+	define("BASE", "http://wwww.librasvirtual.com.br/ead/");
 	$config['dbname'] = 'mod_ead';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
